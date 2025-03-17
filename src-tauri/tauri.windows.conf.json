@@ -3,7 +3,7 @@
     "icon": ["png/zhsh-256.ico", "png/zhsh-32.ico"],
     "active": true,
     "resources": ["png/zhsh-32.ico"],
-    "targets": ["nsis", "exe"],
+    "targets": ["exe"],
     "windows": {
       "digestAlgorithm": "sha256",
       "wix": {
