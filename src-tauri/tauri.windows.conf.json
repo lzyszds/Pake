@@ -3,7 +3,7 @@
     "icon": ["png/weread_256.ico", "png/weread_32.ico"],
     "active": true,
     "resources": ["png/weread_32.ico"],
-    "targets": ["msi"],
+    "targets": ["nsis", "exe"],
     "windows": {
       "digestAlgorithm": "sha256",
       "wix": {
