@@ -1,13 +1,13 @@
 {
   "bundle": {
-    "icon": ["png/weread_256.ico", "png/weread_32.ico"],
+    "icon": ["png/zhsh-256.ico", "png/zhsh-32.ico"],
     "active": true,
-    "resources": ["png/weread_32.ico"],
+    "resources": ["png/zhsh-32.ico"],
     "targets": ["nsis", "exe"],
     "windows": {
       "digestAlgorithm": "sha256",
       "wix": {
-        "language": ["en-US"],
+        "language": ["zh"],
         "template": "assets/main.wxs"
       }
     }
